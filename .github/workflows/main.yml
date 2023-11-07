@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:  
+  Uploading-job:  
+    name: 'Upload build on Sofy'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'checkout'
+        uses: 'actions/checkout@v2'
+      - name: 'Upload build'
+        env:
+          build_path: 'Byte.ipa'
+          subscription_key: 072E1524-7D95-4469-95AF-C182BFB264BG
+        uses: 'SOFYDEVELOPER/sofy-app-upload-github-action@main'        
