@@ -10,5 +10,5 @@ jobs:
       - name: 'Upload build'
         env:
           build_path: 'Byte.ipa'
-          subscription_key: 072E1524-7D95-4469-95AF-C182BFB264BG
+          subscription_key: 072E1524-7D95-4469-95AF-C182BFB264AD
         uses: 'SOFYDEVELOPER/sofy-app-upload-github-action@main'        
