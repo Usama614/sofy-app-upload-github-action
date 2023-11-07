@@ -1,4 +1,4 @@
-# sofy-upload-github-actions
+# sofy-app-upload-github-action
 
 This respository contains a library of GitHub Actions to help you upload your build at Sofy.
 
