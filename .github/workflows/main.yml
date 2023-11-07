@@ -9,7 +9,7 @@ jobs:
         uses: 'actions/checkout@v2'
       - name: 'Upload build'
         env:
-          build_path: 'Byte.ipa'
+          build_path: 'fb.apk'
           subscription_key: 072E1524-7D95-4469-95AF-C182BFB264AD
-          certificate_name: xyz
+          application_guid: 28A67BF3-38D4-4414-B839-6375FD5AD046
         uses: 'SOFYDEVELOPER/sofy-app-upload-github-action@main'        
