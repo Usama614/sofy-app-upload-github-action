@@ -1,5 +1,5 @@
   
-name: 'sofy upload'
+name: 'Sofy-Application-Upload'
 description: 'upload build to sofy'
 inputs:
   build_path:  
