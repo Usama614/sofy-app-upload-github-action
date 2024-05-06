@@ -10,6 +10,5 @@ jobs:
       - name: 'Upload build'
         env:
           build_path: 'fb.apk'
-          subscription_key: 072E1524-7D95-4469-95AF-C182BFB264AD
-          application_guid: 28A67BF3-38D4-4414-B839-6375FD5AD046
+          subscription_key: 90212334-7E07-4AED-BD33-1AEF3FED7EAB
         uses: 'SOFYDEVELOPER/sofy-app-upload-github-action@main'        
