@@ -2,7 +2,7 @@
 
 This respository contains a library of GitHub Actions to help you upload your build at Sofy.
 
-You are required to provide the Build Path and Subscription key.
+You are required to provide the Build Path and Subscription  key.
 
 ## Build Path
 
